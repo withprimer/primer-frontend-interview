@@ -1,0 +1,22 @@
+export type Room = {
+  __typename: "Room";
+  id: string;
+  name: string;
+  description: string;
+  hostType: "PRIMER_HOSTED";
+  publicId: string;
+  url: string;
+  subtitle: string;
+  startsAt: string;
+  endsAt: string;
+  durationInMinutes: number;
+  coverImageUrl: string;
+  hasDefaultUrl: boolean;
+  maxParticipants: number;
+  minAge: number;
+  maxAge: number;
+  createdAt: string;
+  updatedAt: string;
+  isMyAgeAllowed: true;
+  hosts: [];
+};
